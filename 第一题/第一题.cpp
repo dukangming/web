@@ -1,6 +1,5 @@
 /*思路：先第一次遍历字符串，将每个字母出现次数记录；再第二次遍历字符串，找出第一个出现次数为一的字母，并返回他的索引*/ 
 
-
 #include<iostream>
 using namespace std;
 const int MaxNum = 100;
@@ -19,7 +18,7 @@ int find(PSeqString p);
 PSeqString creatString()
 {
     PSeqString pstr = new SeqString;
-    cout << "输入其中一个字符串"<<endl;
+    cout << "输入一个字符串"<<endl;
     cin >> pstr->c;
     pstr->length = strlen(pstr->c);//字符串长度 
     return pstr;
